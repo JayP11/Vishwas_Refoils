@@ -1,0 +1,135 @@
+.ContactUsCards_mainblock {
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  max-width: 1140px;
+  /* background-color: indianred; */
+  /* border-radius: 5px; */
+  /* margin-top: 2rem;
+  margin-bottom: 2rem; */
+}
+
+.ContactUsCards_descblock {
+  max-width: 525px;
+  font-size: 1.6rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ContactUsCards_mapblock {
+  max-width: 525px;
+}
+
+.contact_det {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.react_icon_retailer {
+  width: 60px;
+  height: 60px;
+  background-color: #ffff;
+  /* position: absolute;
+  left: 40%;
+  top: -25px; */
+  border: 1px solid #d31f26;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.map_inner {
+  border-radius: 5px;
+  filter: grayscale(100%) invert(2%) contrast(83%);
+}
+
+.map_inner:hover {
+  filter: grayscale(0%);
+}
+
+@media screen and (max-width: 1000px) {
+  .ContactUsCards_descblock {
+    margin: 0 0.5rem;
+    max-width: 425px;
+  }
+
+  .ContactUsCards_mapblock {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .map_inner {
+    height: 250px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ContactUsCards_mainblock {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+  }
+
+  .ContactUsCards_mapblock {
+    max-width: 100%;
+    /* d */
+  }
+
+  /* .ContactUsCards_mainblock {
+    padding-bottom: 10rem;
+  } */
+
+  .ContactUsCards_mainblock {
+    max-width: 100%;
+  }
+
+  .map_inner {
+    width: 100%;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.ContactUsCards_mapblock1 {
+  animation: 0.5s ease-in 0.5s both running fadeInLeft;
+}
+
+.ContactUsCards_mapblock2 {
+  animation: 1s ease-out 1s both running fadeInRight;
+}

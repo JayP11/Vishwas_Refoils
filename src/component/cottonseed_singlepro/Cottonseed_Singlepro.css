@@ -1,0 +1,11 @@
+.pro_img_cottonseed_main {
+  display: flex;
+  justify-content: center;
+  /* width: 460px; */
+}
+@media screen and (max-width: 870px) {
+  .cottonseedsinglepro_res {
+    background-size: cover !important;
+    height: 100% !important;
+  }
+}

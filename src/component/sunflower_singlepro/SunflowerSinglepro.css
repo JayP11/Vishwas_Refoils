@@ -1,0 +1,76 @@
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.pro_img_sunflower {
+  width: 560px;
+  /* width: 51%; */
+  border: 2px dashed var(--color-main);
+  border-radius: 14px;
+  animation: 0.5s ease-in 0.5s both running fadeInLeft;
+  overflow: hidden;
+}
+
+.pro_img_sunflower_specific {
+  width: 460px;
+}
+
+.pro_img_sunflower_specific {
+  display: flex;
+  justify-content: center;
+}
+
+.img_sunflower_specific {
+  object-fit: cover;
+  width: 80%;
+}
+.product_main {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+
+@media screen and (max-width: 381px) {
+  .product_main {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .pro_img_sunflower {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .product_main {
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px !important;
+  }
+  .pro_singlesunflower_responsive {
+    height: 100% !important;
+    background-size: cover !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .product_main {
+    padding-right: 15px;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

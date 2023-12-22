@@ -1,0 +1,102 @@
+.hero_heading {
+  max-width: 350px;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white;
+  font-weight: 800;
+  font-size: 32px;
+  /* position: absolute; */
+  /* top: 5%;
+  left: 5%; */
+}
+
+.pro_sunflower {
+  height: 100%;
+}
+
+.img_sunflower {
+  width: 100%;
+  object-fit: none;
+  height: 100%;
+}
+
+.pro_img_sunflower {
+  /* max-width: 525px;
+  animation: 1s ease-out 1s both running fadeInLeft; */
+}
+
+.pro_det_sunflower {
+  max-width: 525px;
+  animation: 1s ease-out 1s both running fadeInRight;
+}
+
+.product_head {
+  color: red;
+  font-weight: 700;
+}
+
+.icons_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.packing_icons {
+  height: 55px;
+  width: 55px;
+}
+
+.packing_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .pro_det_sunflower {
+    max-width: 350px;
+  }
+}
+
+/* @media screen and (max-width: 750px) { */
+@media screen and (max-width: 870px) {
+  .pro_det_sunflower {
+    max-width: 600px;
+    padding: 1rem;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}

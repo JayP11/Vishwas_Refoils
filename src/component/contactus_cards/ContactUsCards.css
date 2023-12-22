@@ -1,0 +1,209 @@
+.bg_image_main {
+  width: 100vw;
+  /* height: 34rem; */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.ContactUsCards_main {
+  margin: 0 auto;
+  max-width: 1140px;
+  /* background-color: indianred; */
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Card_headoffice {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.contact_no {
+  margin-top: 10px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.Card_headoffice_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  font-size: 1.6rem;
+
+  background: darkgray;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.react_icon_contact {
+  height: 40px;
+  width: 40px;
+}
+
+.map1 {
+  border-radius: 5px;
+}
+
+.map {
+  padding: 3rem 3rem 3rem 3rem;
+  border-radius: 5px;
+  filter: grayscale(100%) invert(2%) contrast(83%);
+}
+
+/* New added css */
+
+.contus-location-list-main{
+  margin-top: 80px;
+ text-align: center;
+}
+
+.contus-location-list-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cont-add-part{
+  margin-top: 60px;
+  max-width: 270px;
+}
+
+.cont-add-txt{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.cont-add-part-main-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cont-add-part-main-flex2{
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.sub-add-flex{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.line-gray-add{
+  width: 2px;
+  height: 170px;
+  background-color: #ccc;
+  margin-top: 25px;
+}
+
+/* font-size: 26px;
+    text-align: center; */
+
+@media screen and (max-width: 915px) {
+  .map {
+    padding: 0px;
+  }
+
+  .map1 {
+    width: 400px;
+    height: 350px;
+  }
+
+  .Card_headoffice {
+    gap: 45px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .map {
+    display: flex;
+    align-items: center;
+  }
+
+  .map1 {
+    width: 300px;
+    height: 250px;
+  }
+
+  .react_icon_contact {
+    height: 30px;
+    width: 30px;
+  }
+
+  .Card_headoffice_details {
+    width: 250px;
+    font-size: 1.2rem;
+  }
+
+  .cont-add-part-main-flex{
+    justify-content: center;
+  }
+
+  .contus-location-list-flex{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .Card_headoffice {
+    flex-direction: column;
+  }
+
+  .map {
+    width: 100%;
+  }
+
+  .contact_address {
+    margin: 0 1rem;
+  }
+
+  .bg_image_main {
+    height: 100%;
+  }
+
+  .contus-location-list-flex{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .Card_headoffice{
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.Card_headoffice_details1 {
+  animation: 0.5s ease-in 0.5s both running fadeInLeft;
+}
+
+.Card_headoffice_details2 {
+  animation: 0.5s ease-in 0.5s both running fadeInRight;
+}

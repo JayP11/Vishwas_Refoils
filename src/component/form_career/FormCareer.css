@@ -1,0 +1,129 @@
+.FormCareer_main {
+  margin: 0 auto;
+  max-width: 1140px;
+  border: 3px solid #111;
+  border-radius: 10px;
+}
+
+.form_head {
+  background: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  height: 70px;
+  align-items: center;
+  border: 1px solid;
+}
+
+.textbox_main {
+  display: flex;
+  padding: 10px;
+  /* width: 479px; */
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.textbox {
+  padding: 10px;
+  width: 479px;
+}
+
+.form_block1 {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.form_block2 {
+  display: flex;
+  /* gap: 2rem; */
+  align-items: center;
+  justify-content: center;
+}
+
+.address_block {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.submit_btn_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .FormCareer_main {
+    max-width: 890px;
+  }
+  .textbox {
+    width: 300px;
+  }
+  .textbox_main {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .FormCareer_main {
+    max-width: 650px;
+  }
+  .form_block1 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textbox {
+    width: 100%;
+  }
+  .form_block2 {
+    margin-top: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .FormCareer_main {
+    max-width: 500px;
+  }
+  .textbox_main {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .FormCareer_main {
+    max-width: 300px;
+  }
+
+  .textbox {
+    width: 100%;
+  }
+  .textbox_main {
+    width: 200px;
+    flex-direction: column;
+  }
+
+  .textbox_add {
+    width: 111%;
+  }
+
+  .textbox_add_main {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+}
+
+/* .form_block1
+display: flex;
+    /* gap: 2rem; */
+/* justify-content: center;
+    flex-direction: column;
+    align-items: center; */

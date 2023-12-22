@@ -1,0 +1,11 @@
+.Message_main{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 3rem 0;
+    letter-spacing: 1px;
+}
+ @media screen and (max-width: 1200px){
+    .Message_main{
+        margin: 2rem;
+    }
+}

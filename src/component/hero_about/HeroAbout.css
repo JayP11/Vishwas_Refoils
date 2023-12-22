@@ -1,0 +1,165 @@
+.AboutUS_main {
+  margin: 0 auto;
+  gap: 2rem;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 1px;
+}
+
+.AboutUS_desc_main {
+  /* margin: 0 3rem; */
+  gap: 1rem;
+  justify-content: space-around;
+  display: flex;
+}
+
+.aboutus_para_main {
+  display: flex;
+  /* margin: 0 3rem; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc_main1 {
+  /* display: flex; */
+  max-width: 600px;
+}
+
+.AboutUsImg1 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.AboutUS_img {
+  max-width: 400px;
+}
+
+.certificate_img {
+  height: 100%;
+  width: 100%;
+}
+.certificate_img1_main,
+.certificate_img2_main,
+.certificate_img3_main{
+  max-height: 650px;
+  max-width: 500px;
+}
+
+.certificate_img_main {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+/* .certificate_img3_main {
+  height: 650px;
+  width: 510px;
+} */
+
+@media screen and (max-width: 1150px) {
+  .AboutUS_img {
+    max-width: 500px;
+  }
+
+  .AboutUS_desc_main {
+    margin: 0 3rem;
+  }
+
+  .aboutus_para_main {
+    margin: 0 3rem;
+  }
+
+  .certificate_img_main {
+    margin: 0 3rem;
+  }
+
+  .desc_main1 {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .AboutUS_desc_main {
+    align-items: center;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+
+  .desc_main1 {
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .certificate_img_main {
+    flex-direction: column;
+  }
+
+  .AboutUS_desc_main {
+    gap: 0rem;
+    margin: 0 2rem;
+  }
+
+  .aboutus_para_main {
+    margin: 0 2rem;
+  }
+
+  .AboutUS_main {
+    margin-bottom: 2rem;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.desc_main1 {
+  animation: 0.5s ease-in 0.5s both running fadeInLeft;
+}
+
+.AboutUS_img {
+  animation: 1s ease-out 1s both running fadeInRight;
+}
+
+.certificate_img1_main {
+  animation: 0.5s ease-in 0.5s both running fadeInLeft;
+}
+
+.certificate_img2_main {
+  animation: 1s ease-out 1s both running fadeInRight;
+}
+.certificate_img3_main {
+  animation: 1s ease-out 1s both running fadeInRight;
+}

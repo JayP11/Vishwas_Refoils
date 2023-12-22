@@ -1,0 +1,14 @@
+.pro_img_soya{
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 870px) {
+  .soyasinglepro_res {
+    background-size: cover !important;
+    height: 100% !important;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+
+}

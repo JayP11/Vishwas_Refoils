@@ -1,0 +1,109 @@
+.Recipeonedetail-imgbox-inner {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.603);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Recipeonedetail-imgbox {
+  position: relative;
+}
+
+.Recipeonedetail-inner-flex {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.Recipeonedetail-heading {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.Recipeonedetail-inner-flex-con {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Recipeonedetail-head {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.Recipedet-heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Recipedet-sub-heading {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.Recipedet-list {
+  font-size: 16px;
+  padding-left: 0px;
+  margin: 0px;
+  color: #fff;
+}
+
+.Recipedet-lists {
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Recipeonedetail-flex-part {
+  max-width: 530px;
+}
+
+@media screen and (max-width: 950px) {
+  .Recipeonedetail-inner-flex-con {
+    flex-direction: column;
+  }
+
+  .Recipeonedetail-img {
+    /* object-fit: none; */
+  }
+
+  .Recipeonedetail-imgbox {
+    height: 1400px;
+  }
+
+  .Recipeonedetail_imgbox_fafdajalebi {
+    height: 2124px !important;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .Recipeonedetail_imgbox_fafdajalebi {
+    height: 2485px !important;
+  }
+}
+@media screen and (max-width: 530px) {
+  .Recipeonedetail-imgbox {
+    height: 1500px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .Recipeonedetail-imgbox {
+    height: 1600px;
+  }
+}

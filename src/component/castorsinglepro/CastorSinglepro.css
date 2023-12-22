@@ -1,0 +1,11 @@
+.pro_img_castor_main {
+  display: flex;
+  justify-content: center;
+  width: 360px;
+}
+@media screen and (max-width: 870px) {
+  .castorsinglepro_res {
+    background-size: cover !important;
+    height: 100% !important;
+  }
+}

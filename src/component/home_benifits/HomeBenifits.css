@@ -1,0 +1,135 @@
+.home_benifits_main {
+  margin: 0 auto;
+  max-width: 1140px;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 4rem; */
+}
+
+.home_benifits_head {
+  /* max-width: 525px; */
+}
+
+.home_benifits_desc {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  /* margin-bottom: 7rem; */
+}
+
+.home_benifit_img_main {
+  max-width: 525px;
+  animation: 1s ease-in 1s both running fadeInRight;
+}
+
+.home_benifit_img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.benifits_box_main {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  max-width: 525px;
+  animation: 1s ease-in 1s both running fadeInRight;
+}
+
+.benifits_box {
+  gap: 1rem;
+  display: flex;
+}
+
+.box_item {
+  width: 14rem;
+}
+
+@media screen and (max-width: 1140px) {
+  .home_benifits_desc {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home_benifit_img_main {
+    max-width: 425px;
+  }
+
+  .benifits_box_main {
+    max-width: 425px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .home_benifit_img_main {
+    max-width: 400px;
+  }
+
+  .benifits_box_main {
+    max-width: 325px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home_benifits_desc {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .home_benifit_img_main {
+    max-width: 525px;
+  }
+
+  .home_benifits_desc {
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .benifits_box_main {
+    max-width: 525px;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .box_item {
+    width: 10rem;
+  }
+
+  .home_benifits_head {
+    padding: 0 1rem;
+  }
+
+  /*
+  .home_benifit_img{
+    border-radius: 0px;
+  }*/
+  .home_benifit_img_main {
+    /* max-width: 340px; */
+  }
+
+  .home_benifits_desc {
+    /* padding: 0px; */
+  }
+
+  br {
+    display: none;
+  }
+
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}

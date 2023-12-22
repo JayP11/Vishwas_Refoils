@@ -1,0 +1,47 @@
+.Recipeonedetail-sec {
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.Recipeonedetail-con {
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Recipeonedetail-imgbox {
+    max-width: 100%;
+    height: 1200px;
+}
+
+.Recipeonedetail-img {
+    width: 100%;
+    height: 100%;
+}
+
+.Recipeonedet-expart-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.extra-height-img {
+    object-fit: revert !important;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 950px) {
+    .extra-height-img-box {
+        height: 1850px !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .extra-height-img-box {
+        height: 2000px !important;
+    }
+}

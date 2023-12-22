@@ -1,0 +1,37 @@
+.img_palmoean_all_pro {
+  width: 100%;
+  height: 100%;
+}
+
+.img_palmoean_all_pro_main {
+  height: 300px;
+  width: 400px;
+}
+
+.palmolien_singleproduct_bgimage {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 870px) {
+  .palmolien_singleproduct_bgimage {
+    background-size: cover !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .palmolien_singleproduct_bgimage {
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    background-size: cover;
+  }
+
+  /* .icons_main{
+    padding-bottom: 0rem;
+  } */
+}
+@media screen and (max-width: 400px) {
+  .img_palmoean_all_pro_main {
+    height: 100%;
+    width: 100%;
+  }
+}

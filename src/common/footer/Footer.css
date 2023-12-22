@@ -1,0 +1,146 @@
+.footer_bg_img {
+  width: 100%;
+  /* height: 25rem; */
+  position: absolute;
+  object-fit: cover;
+}
+.footer_main {
+  font-weight: 500;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 1140px;
+  gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.footer_img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  /* object-fit: contain;  */
+  /* height: 20rem;
+  width: 25rem !important; */
+}
+
+.about_us_main {
+  max-width: 290px;
+}
+
+.quick_links_main{
+  width: 260px;
+}
+
+.products_main {
+  width: 340px;
+}
+
+/* .quick_links_main {
+  width: 290px;
+} */
+.footer-part-social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.footer-social-icon {
+  width: 30px;
+  height: 30px;
+}
+.footercolor_icon {
+  background-color: #fff;
+  border-radius: 20px;
+}
+.footer_quicklinks {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.links {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-mainn {
+  /* display: flex;
+  justify-content: center; */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* background-size: cover; */
+}
+
+.footerlinksmaininer {
+  color: white;
+  text-decoration: none;
+}
+
+.footerlinksmain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1150px) {
+  .footer_main {
+    max-width: 1000px;
+    /* margin: 0 1rem 0 1rem; */
+    justify-content: space-around;
+    gap: 0;
+  }
+  .footer_img {
+    height: 16rem;
+    width: 23rem !important;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer_main {
+    margin: 0 2rem;
+    gap: 1rem;
+  }
+  .footer_img {
+    height: 14rem;
+    width: 20rem !important;
+    margin-top: 2rem;
+  }
+
+  .footer_bg_img {
+    height: 28rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .footer_img {
+    display: none;
+  }
+  .footer_bg_img {
+    height: 20rem;
+  }
+}
+@media screen and (max-width: 683px) {
+  .footer_main {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: flex-start;
+    display: flex;
+  }
+  .about_us_main {
+    max-width: 500px;
+  }
+  .footer_bg_img {
+    height: 90%;
+  }
+}
+@media screen and (max-width: 515px) {
+  .footer_bg_img {
+    height: 97%;
+  }
+}
+@media screen and (max-width: 401px) {
+  .footer_bg_img {
+    height: 133%;
+  }
+
+  .footer-mainn {
+    background-size: cover !important;
+  }
+}

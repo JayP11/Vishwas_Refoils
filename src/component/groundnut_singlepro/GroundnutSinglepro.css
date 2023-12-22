@@ -1,0 +1,10 @@
+.pro_img_groundnut_main{
+  display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 900px) {
+  .groundnutsinglepro_res {
+    background-size: cover !important;
+    height: 100% !important;
+  }
+}

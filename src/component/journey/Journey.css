@@ -1,0 +1,379 @@
+.tour_title {
+  text-align: center;
+  height: 0px;
+}
+
+.sec_jour {
+  /* background: #f7bc13; */
+  background: #fede00;
+  padding: 3rem 0 3rem 0;
+  /* background-color: yellow; */
+}
+
+.jou_main {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  /* gap: 15rem; */
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.jour_desc {
+  display: flex;
+  margin-left: 2rem;
+  max-width: 400px;
+  align-items: center;
+}
+
+.ricon {
+  font-size: 4rem;
+}
+
+.jour_circle_main {
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.jour_track_main {
+  display: flex;
+  /* gap: 2rem; */
+}
+
+.track_main {
+  width: 150px;
+  height: 125px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .jour_1{
+  display: none;
+}
+
+.track_main:hover  .jour_1 {
+  display: block;
+  cursor: pointer;
+} */
+
+.track_year {
+  border: 3px solid red;
+  border-radius: 100%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .jou_main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .track_main {
+    width: 115px;
+  }
+}
+
+/* New css added */
+
+.our-jour-con {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  /* gap: 35px; */
+  justify-content: space-between;
+  height: 400px;
+}
+
+.our-jour-con-part1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 450px;
+  justify-content: center;
+  animation: 1s ease-in 1s both running fadeInRight;
+}
+
+.line-jouny {
+  width: 25px;
+  height: 1px;
+  background-color: red;
+}
+
+.our-jour-since {
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+  margin: 0px;
+}
+
+.our-jour-des-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: justify;
+}
+
+.our-jour-des {
+  font-size: 16px;
+  color: #000;
+  margin: 0px;
+}
+
+.our-jour-side-since {
+  font-size: 128px;
+  font-weight: 800;
+  /* color: yellow; */
+  margin: 0px;
+}
+
+.our-jour-side-since2 {
+  font-size: 128px;
+  font-weight: 800;
+  color: darkred;
+  margin: 0px;
+  margin-top: -45px;
+}
+
+.our-jour-img {
+  width: 165px;
+  height: 225px;
+  position: absolute;
+  top: 100px;
+  left: 75px;
+}
+
+.our-jour-since-posotion {
+  position: relative;
+}
+
+.our-jour-since-line {
+  height: 400px;
+  width: 1px;
+  background-color: darkred;
+}
+
+.our-jour-con-part3 {
+  display: flex;
+  animation: 1s ease-in 1s both running fadeInRight;
+}
+
+.our-jour-con-part33 {
+  display: flex;
+}
+
+.our-jour-since-btn {
+  color: indianred;
+  background: none;
+  border: none;
+  padding: 0px;
+}
+
+.our-jour-since-round {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: indianred;
+}
+
+.our-jour-btn-flex {
+  display: flex;
+  align-items: baseline;
+  height: fit-content;
+  gap: 5px;
+  /* margin-right: -6px; */
+}
+
+.our-jour-since-list-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 50px;
+}
+
+
+.our-jour-con2 {
+  display: none;
+}
+
+.our-jour-main-resp-position {
+  display: none;
+}
+
+.our-jour-con-part33 {
+  position: absolute;
+  top: 0px;
+  right: 37px;
+}
+
+.our-jour-since-btn1 {
+  transform: translate(5px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.our-jour-since-btn2 {
+  transform: translate(9px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+ }
+
+
+.our-jour-since-btn3 {
+  transform: translate(9px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.our-jour-since-btn4 {
+  transform: translate(9px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.our-jour-since-btn5 {
+  transform: translate(10px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.our-jour-since-btn6 {
+  transform: translate(10px, 0px);
+  overflow: hidden;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.our-jour-btn-flex :hover {
+  color: red;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1140px) {
+  .our-jour-con {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  .our-jour-side-since {
+    font-size: 96px;
+  }
+
+  .our-jour-side-since2 {
+    font-size: 96px;
+  }
+
+  .our-jour-img {
+    top: 70px;
+    left: 32px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .our-jour-con {
+    display: none;
+  }
+
+  .our-jour-con2 {
+    display: block;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 20px;
+    height: 475px;
+  }
+
+  .our-jour-main-resp-position {
+    display: block;
+    position: relative;
+  }
+
+  .our-jour-since-btn2-resp {
+    transform: translate(6px, 0px);
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+
+  .our-jour-since-btn3-resp {
+    transform: translate(6px, 0px);
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+
+  .our-jour-since-btn4-resp {
+    transform: translate(6px, 0px);
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+
+  .our-jour-since-btn5-resp {
+    transform: translate(6px, 0px);
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+
+  .our-jour-since-btn6-resp {
+    transform: translate(6px, 0px);
+    overflow: hidden;
+    width: fit-content;
+    width: -moz-fit-content;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .our-jour-con-part1 {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .our-jour-con-part1 {
+    max-width: 225px;
+  }
+
+  .our-jour-con-part33 {
+    right: 22px;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}

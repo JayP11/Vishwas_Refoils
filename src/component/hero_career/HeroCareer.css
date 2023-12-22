@@ -1,0 +1,149 @@
+.HeroCareer_main {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.HeroCareer_main_inner {
+  align-items: center;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-around;
+  gap: 16rem;
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px;
+  background: white;
+}
+
+.career_contact {
+  display: flex;
+  gap: 1rem;
+}
+
+.mail_block_career,
+.no_block_career {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 4px;
+  gap: 0.5rem;
+  width: 240px;
+  padding: 5px;
+  background-color: red;
+  /* justify-content: center; */
+  color: white;
+}
+
+.mail_block_career:hover,
+.no_block_career:hover {
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.HeroCareer_main_desc {
+  max-width: 600px;
+}
+.HeroCareer_main_social {
+  max-width: 250px;
+}
+
+.contact_links {
+  color: white;
+  text-decoration: none;
+}
+.contact_linkss {
+  color: white;
+  text-decoration: none;
+}
+
+.react_icon_carrer_circle {
+  background-color: white;
+  color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Join_Our_Team_head {
+  marginbottom: 7px;
+  margintop: 0px;
+  fontsize: 40px;
+}
+
+.mail_block_career:hover .react_icon_carrer_circle {
+  background-color: black;
+  color: white;
+}
+.no_block_career:hover .react_icon_carrer_circle {
+  background-color: black;
+  color: white;
+}
+.mail_block_career:hover .contact_links {
+  color: #111;
+}
+.no_block_career:hover .contact_links {
+  color: #111;
+}
+
+.react_icon_contact_position {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+}
+
+@media screen and (max-width: 980px) {
+  .HeroCareer_main_inner {
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .career_contact {
+    flex-direction: column;
+  }
+}
+
+/* @media screen and (max-width: 470px) { */
+@media screen and (max-width: 700px) {
+  .HeroCareer_main_inner {
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin: 0 2rem;
+  }
+  .career_contact {
+    align-items: center;
+  }
+  .Join_Our_Team_head,
+  .HeroCareer_main_heading {
+    text-align: center;
+  }
+}
+/* 
+.HeroCareer_main_social_inner{
+    display: flex;
+}
+
+.social_img_main{
+    max-width: 150px;
+    max-height: 150px;
+}
+.social_img1{
+    border: 2px solid ;
+    border-radius: 5px;
+
+    height: 100%;
+    width: 100%;
+}
+.social_img2{
+    height: 90%;
+    width: 98%;
+    margin-top: 10px;
+} */
