@@ -39,7 +39,7 @@ import Refined_Corn_Oil_set from "../asset/Refined_Corn_Oil_set.png";
 import SoyabeanOil_Products from "../asset/SoyabeanOil_Products.png";
 import All_Soya from "../asset/All_Soya.png";
 import Palmolean_Products from "../asset/Palmolean_Products.png";
-
+import Refined_PalmoleinOil_set from "../asset/Refined_PalmoleinOil_set.png";
 import castor_Singlepro from "../asset/castor_Singlepro.png";
 import Castor_Oil_set from "../asset/Castor_Oil_set.png";
 import bottle from "../asset/bottle.png";
@@ -175,6 +175,7 @@ export default {
   SoyabeanOil_Products,
   All_Soya,
   Palmolean_Products,
+  Refined_PalmoleinOil_set,
   bottle,
   pouch,
   pouch1,

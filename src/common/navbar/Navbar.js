@@ -19,44 +19,11 @@ const Navbar = () => {
                 <img src={images.logo} className="nav-logo" />
               </Link>
             </div>
-            {/* <ul className="nav-linkks">
-              <li>
-                <Link to="/" className="nav-linkk">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link to="/about" className="nav-linkk">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to="/products" className="nav-linkk">
-                  Products
-                </Link>
-              </li>
-              <li>
-                <Link to="/recipes" className="nav-linkk">
-                  Recipes
-                </Link>
-              </li>
-              <li>
-                <Link to="/contactus" className="nav-linkk">
-                  Contact
-                </Link>
-              </li>
-              <a href="https://deodap.in/search?q=Vishwas">
-                <button className="Shop_Now_Button_Prods">Shop Now</button>
-              </a>
-            </ul> */}
 
             <div className="nav-linkks">
               <Link to="/" className="nav-linkk">
                 Home
               </Link>
-              {/* <Link to="/" className="nav-linkk">
-                Products
-              </Link> */}
               <div className="dropdown">
                 <Link className="nav-linkk">
                   About
@@ -73,30 +40,13 @@ const Navbar = () => {
                   <i className="fa fa-caret-down"></i>
                 </Link>
                 <div className="dropdown-content">
-                  <a href="/PalmoleinOil" className="">
-                    Refined Palmolein Oil
-                  </a>
-                  <a href="/SunflowerOil" className="">
-                    Refined Sunflower Oil
-                  </a>
-                  <a href="/GroundnutOil" className="">
-                    Double Filtered Groundnut Oil
-                  </a>
-                  <a href="/CottonseedOil" className="">
-                    Refined Cottonseed Oil
-                  </a>
-                  <a href="/CornOil" className="">
-                    Refined Corn Oil
-                  </a>
-                  <a href="/CastorSinglepro" className="">
-                    Refined Castor Oil
-                  </a>
-                  <a href="/SoyabeanOil" className="">
-                    Refined Soyabean Oil
-                  </a>
-                  {/* <a href="/GoldPalmoleinOil" className="">
-                    Gold Palmolein Oil
-                  </a> */}
+                  <Link to="/PalmoleinOil"> Refined Palmolein Oil</Link>
+                  <Link to="/SunflowerOil"> Refined Sunflower Oil</Link>
+                  <Link to="/GroundnutOil"> Refined Groundnut Oil</Link>
+                  <Link to="/CottonseedOil"> Refined Cottonseed Oil</Link>
+                  <Link to="/CornOil"> Refined Corn Oil</Link>
+                  <Link to="/CastorSinglepro"> Refined Castor Oil</Link>
+                  <Link to="/SoyabeanOil"> Refined Soyabean Oil</Link>
                 </div>
               </div>
 

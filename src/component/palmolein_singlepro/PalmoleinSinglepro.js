@@ -18,12 +18,12 @@ const PalmoleinSinglepro = () => {
       <div className="product_main">
         <div className="img_palmoean_all_pro_main">
           <img
-            src={images.Palmolean_Products}
-            alt=""
+            src={images.Refined_PalmoleinOil_set}
+            alt="Refined_PalmoleinOil_set"
             className="img_palmoean_all_pro"
           />
         </div>
-        <div className="pro_det_sunflower">
+        <div className="pro_det_sunflower pro_det_palmolean">
           <div className="product_head">
             <h1 style={{ fontSize: "30px" }}>Refined Palmolein Oil</h1>
           </div>
