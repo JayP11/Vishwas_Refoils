@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import images from "../../constants/images";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-
 import { Link } from "react-router-dom";
-
 import "./Navbar.css";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
