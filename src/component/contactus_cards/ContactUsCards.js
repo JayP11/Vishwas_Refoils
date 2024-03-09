@@ -287,7 +287,7 @@ const ContactUsCards = () => {
                         marginTop: "0px",
                         fontSize: "30px",
                       }}>
-                      JALIYAN ENTERPRISE{" "}
+                      Jaliyan Enterprise
                     </h1>
                     <p className="cont-add-txt" style={{ marginTop: "10px" }}>
                       Jaliyan Enterprise,

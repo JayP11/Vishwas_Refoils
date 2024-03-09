@@ -16,10 +16,11 @@ font-family: 'Playfair Display';
   color: white;
   background-color: red;
   border: 0px;
-  /* padding: 0.8rem; */
+  padding: 0.3rem 0.8rem;
   text-transform: uppercase;
   /* height: 35px;
   width: 110px; */
+    border: 2px solid red;
   border-radius: 3px;
 }
 

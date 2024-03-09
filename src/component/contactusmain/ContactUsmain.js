@@ -43,21 +43,21 @@ const ContactUsmain = () => {
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-               Shubham Enterprise-Rajkot :
+                Shubham Enterprise-Rajkot :
               </h1>
               <p>
-              Near Star Synergy Hospital,
-                <br /> Mavdi Main Road, Rajkot- 360007, <br/>Gujarat (India) 
+                Near Star Synergy Hospital,
+                <br /> Mavdi Main Road, Rajkot- 360007, <br />
+                Gujarat (India)
               </p>
 
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9375599931" style={{ color: "#111" }}>
-                +91 9375599931
+                  +91 9375599931
                 </a>
               </p>
             </div>
-            
             <div>
               <h1
                 className="red_heading"
@@ -65,30 +65,49 @@ const ContactUsmain = () => {
                 Shubham Enterprise-Rajkot :
               </h1>
               <p>
-              Devpara Shak Market, <br/> Kothariya Main Road,
+                Devpara Shak Market, <br /> Kothariya Main Road,
                 <br /> Devpara, Rajkot- 360001
-                <br /> Gujarat (India) 
+                <br /> Gujarat (India)
               </p>
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9998069771" style={{ color: "#111" }}>
-                +91 9998069771
+                  +91 9998069771
                 </a>
               </p>
             </div>
-          
+
             <div>
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Maruti Trading co.-Rajkot
- :
+                Maruti Trading co.-Rajkot:
               </h1>
-              <p>Opp. Junagadh Utara, Danapith, <br/> Rajkot-360001, Gujarat (India) </p>
+              <p>
+                Opp. Junagadh Utara, Danapith, <br /> Rajkot-360001, Gujarat
+                (India){" "}
+              </p>
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:7434003500" style={{ color: "#111" }}>
-                +91 7434003500
+                  +91 7434003500
+                </a>
+              </p>
+            </div>
+            <div>
+              <h1
+                className="red_heading"
+                style={{ marginBottom: "0px", marginTop: "0px" }}>
+                Jaliyan Enterprise,
+              </h1>
+              <p>
+                Near Patel Pan, S K Chowk,
+                <br /> Gandhigram,Rajkot - 360007
+              </p>
+              <p>
+                {/* Jatinbhai: &nbsp; */}
+                <a href="tel:9327202554" style={{ color: "#111" }}>
+                  +91 9327202554
                 </a>
               </p>
             </div>
@@ -97,13 +116,16 @@ const ContactUsmain = () => {
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-               Shree Gajanan Enterprise-Ahmedabad :
+                Shree Gajanan Enterprise-Ahmedabad :
               </h1>
-              <p>406/6, Chokha Bazar, Kalupur,  <br/> Ahmedabad-380001 Gujarat (India)</p>
+              <p>
+                406/6, Chokha Bazar, Kalupur, <br /> Ahmedabad-380001 Gujarat
+                (India)
+              </p>
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9638377021" style={{ color: "#111" }}>
-                +91 9638377021
+                  +91 9638377021
                 </a>
               </p>
             </div>
@@ -111,17 +133,16 @@ const ContactUsmain = () => {
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-               Ravi Trading - Jamnagar 
-
+                Ravi Trading - Jamnagar
               </h1>
               <p>
-              Grain Market, Jamnagar - 361001  <br/>
-                Gujarat (India) 
+                Grain Market, Jamnagar - 361001 <br />
+                Gujarat (India)
               </p>
               <p>
                 {/* Bharatbhai: &nbsp; */}
                 <a href="tel: 9375373000" style={{ color: "#111" }}>
-                +91 9375373000
+                  +91 9375373000
                 </a>
               </p>
             </div>
@@ -130,16 +151,15 @@ const ContactUsmain = () => {
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
                 Jalaram Trading-Bhavnagar
-
               </h1>
               <p>
-              Randhanpuri Bazar, 
-                <br /> Behind Danapith, <br/> Bhavnagar-364001, Gujarat (India) 
+                Randhanpuri Bazar,
+                <br /> Behind Danapith, <br /> Bhavnagar-364001, Gujarat (India)
               </p>
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:+ 9427560656" style={{ color: "#111" }}>
-                +91 9427560656
+                  +91 9427560656
                 </a>
               </p>
             </div>
@@ -147,20 +167,19 @@ const ContactUsmain = () => {
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Krishna Traders-Amreli 
-
+                Krishna Traders-Amreli
               </h1>
               <p>
-              Rajkot Bhavnagar Highway, 
-                <br /> Opp. Civil Hospital, <br/>
-                Babra, Dist: Amreli - 365421 <br/>
-                Gujarat, India 
+                Rajkot Bhavnagar Highway,
+                <br /> Opp. Civil Hospital, <br />
+                Babra, Dist: Amreli - 365421 <br />
+                Gujarat, India
               </p>
 
               <p>
                 {/* Jatinbhai: &nbsp; */}
                 <a href="tel:97268 89007" style={{ color: "#111" }}>
-                +91 97268 89007
+                  +91 97268 89007
                 </a>
               </p>
             </div>
@@ -203,8 +222,6 @@ const ContactUsmain = () => {
             allowfullscreen=""
             aria-hidden="false"
             tabindex="0"></iframe>
-
-
         </div>
         {/* </AnimationOnScroll> */}
       </div>

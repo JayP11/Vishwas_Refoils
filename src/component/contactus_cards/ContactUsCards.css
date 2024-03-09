@@ -17,7 +17,7 @@
 .Card_headoffice {
   display: flex;
   gap: 2rem;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .contact_no {
