@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9653219c.css",
-    "main.js": "/static/js/main.8df99ed3.js",
+    "main.css": "/static/css/main.c094b8ed.css",
+    "main.js": "/static/js/main.6ef79ba0.js",
+    "static/media/Refined_PalmoleinOil_set.png": "/static/media/Refined_PalmoleinOil_set.dcb3b2f62ad1b0912546.png",
     "static/media/Refined_Sunflower_Oil_set.png": "/static/media/Refined_Sunflower_Oil_set.30ff278fbfd665e2a9ee.png",
     "static/media/Refined_Cottonseed_Oil_set.png": "/static/media/Refined_Cottonseed_Oil_set.a39e832bffc18d526129.png",
     "static/media/Castor_Oil_set.png": "/static/media/Castor_Oil_set.4e6365f6fa7caaa51375.png",
@@ -88,11 +89,11 @@
     "static/media/linkdin.png": "/static/media/linkdin.a2c054691291d49eab96.png",
     "static/media/carrer_cartoon_img.webp": "/static/media/carrer_cartoon_img.ac6559c0470d79600667.webp",
     "index.html": "/index.html",
-    "main.9653219c.css.map": "/static/css/main.9653219c.css.map",
-    "main.8df99ed3.js.map": "/static/js/main.8df99ed3.js.map"
+    "main.c094b8ed.css.map": "/static/css/main.c094b8ed.css.map",
+    "main.6ef79ba0.js.map": "/static/js/main.6ef79ba0.js.map"
   },
   "entrypoints": [
-    "static/css/main.9653219c.css",
-    "static/js/main.8df99ed3.js"
+    "static/css/main.c094b8ed.css",
+    "static/js/main.6ef79ba0.js"
   ]
 }

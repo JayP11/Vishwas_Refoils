@@ -22,7 +22,7 @@
 
 .contact_no {
   margin-top: 10px;
-  gap: 1rem;
+  gap: 0.5rem;
   display: flex;
   align-items: center;
   height: 3rem;
@@ -59,47 +59,48 @@
 
 /* New added css */
 
-.contus-location-list-main{
+.contus-location-list-main {
   margin-top: 80px;
- text-align: center;
+  text-align: center;
 }
 
-.contus-location-list-flex{
+.contus-location-list-flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.cont-add-part{
+.cont-add-part {
   margin-top: 60px;
   max-width: 270px;
 }
 
-.cont-add-txt{
+.cont-add-txt {
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.cont-add-part-main-flex{
+.cont-add-part-main-flex {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 1rem;
   flex-wrap: wrap;
 }
 
-.cont-add-part-main-flex2{
+.cont-add-part-main-flex2 {
   justify-content: center;
   margin-top: 60px;
 }
 
-.sub-add-flex{
+.sub-add-flex {
   display: flex;
   align-items: center;
   gap: 22px;
 }
 
-.line-gray-add{
+.line-gray-add {
   width: 2px;
   height: 170px;
   background-color: #ccc;
@@ -145,11 +146,11 @@
     font-size: 1.2rem;
   }
 
-  .cont-add-part-main-flex{
+  .cont-add-part-main-flex {
     justify-content: center;
   }
 
-  .contus-location-list-flex{
+  .contus-location-list-flex {
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -172,13 +173,13 @@
     height: 100%;
   }
 
-  .contus-location-list-flex{
+  .contus-location-list-flex {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
   }
 
-  .Card_headoffice{
+  .Card_headoffice {
     justify-content: center;
     align-items: center;
   }

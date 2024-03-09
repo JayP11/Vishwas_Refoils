@@ -30,19 +30,16 @@ const ContactUsCards = () => {
         alignItems: "center",
         // paddingTop: "3rem",
         // paddingBottom: "3rem",
-      }}
-    >
+      }}>
       <div className="ContactUsCards_main">
         <div className="Cards_main">
           <div className="Card_headoffice">
-
-          <div className="Card_headoffice_details Card_headoffice_details2">
+            <div className="Card_headoffice_details Card_headoffice_details2">
               <div>
                 <h1
                   className="red_heading"
-                  style={{ color: "white", marginBottom: "0px" }}
-                >
-                Registered Office Address
+                  style={{ color: "white", marginBottom: "0px" }}>
+                  Registered Office Address
                 </h1>
               </div>
               <div className="contact_address">
@@ -82,8 +79,7 @@ const ContactUsCards = () => {
               <div>
                 <h1
                   className="red_heading"
-                  style={{ color: "white", marginBottom: "0px" }}
-                >
+                  style={{ color: "white", marginBottom: "0px" }}>
                   Head Office
                 </h1>
               </div>
@@ -112,8 +108,10 @@ const ContactUsCards = () => {
                   <HiOutlineMail className="react_icon_contact" />
                 </div>
                 <div>
-                  <a href="mailto:vrclimited.2023@gmail.com" style={{ color: "#111" }}>
-                  vrclimited.2023@gmail.com
+                  <a
+                    href="mailto:vrclimited.2023@gmail.com"
+                    style={{ color: "#111" }}>
+                    vrclimited.2023@gmail.com
                   </a>
                   {/* <p>vshwstc@gmail.com</p> */}
                 </div>
@@ -122,7 +120,6 @@ const ContactUsCards = () => {
 
             {/*  */}
 
-           
             {/* <div className="map">            
               <iframe
                 className="map map1"
@@ -135,255 +132,316 @@ const ContactUsCards = () => {
                 aria-hidden="false"
                 tabindex="0"></iframe>
             </div> */}
-
-            
           </div>
           <div className="contus-location-list-main">
-          <p className="red_heading">We are available at</p>
-          <div className="contus-location-list-flex">
-          <button type="button" className="red_button shop_now_btn"  onClick={() => {
-                setAllImages(1);
-              }}>
-                  Rajkot
-                </button>
+            <p className="red_heading">We are available at</p>
+            <div className="contus-location-list-flex">
+              <button
+                type="button"
+                className="red_button shop_now_btn"
+                onClick={() => {
+                  setAllImages(1);
+                }}>
+                Rajkot
+              </button>
 
-                <button type="button" className="red_button shop_now_btn"  onClick={() => {
-                setAllImages(2);
-              }}>
-                  Ahemdabad
-                </button>
+              <button
+                type="button"
+                className="red_button shop_now_btn"
+                onClick={() => {
+                  setAllImages(2);
+                }}>
+                Ahemdabad
+              </button>
 
-                <button type="button" className="red_button shop_now_btn"  onClick={() => {
-                setAllImages(3);
-              }}>
-                  Jamnagar
-                </button>
+              <button
+                type="button"
+                className="red_button shop_now_btn"
+                onClick={() => {
+                  setAllImages(3);
+                }}>
+                Jamnagar
+              </button>
 
-                <button type="button" className="red_button shop_now_btn"  onClick={() => {
-                setAllImages(4);
-              }}>
-                  Bhavnagar
-                </button>
+              <button
+                type="button"
+                className="red_button shop_now_btn"
+                onClick={() => {
+                  setAllImages(4);
+                }}>
+                Bhavnagar
+              </button>
 
-                <button type="button" className="red_button shop_now_btn"  onClick={() => {
-                setAllImages(5);
-              }}>
-                  Amreli
-                </button>
+              <button
+                type="button"
+                className="red_button shop_now_btn"
+                onClick={() => {
+                  setAllImages(5);
+                }}>
+                Amreli
+              </button>
+            </div>
+
+            {AllImages === 1 ? (
+              <>
+                <div className="cont-add-part-main-flex">
+                  <div style={{ marginTop: "60px" }}>
+                    <h1
+                      className="red_heading"
+                      style={{ marginBottom: "0px", marginTop: "0px" }}>
+                      Shubham Enterprise-Rajkot
+                    </h1>
+                    <div className="sub-add-flex">
+                      <div
+                        className="cont-add-part"
+                        style={{ marginTop: "20px" }}>
+                        <p
+                          className="cont-add-txt"
+                          style={{ marginTop: "0px" }}>
+                          Near Star Synergy Hospital,
+                          <br /> Mavdi Main Road, <br /> Rajkot- 360007, <br />{" "}
+                          Gujarat (India)
+                        </p>
+
+                        <div
+                          className="contact_det"
+                          style={{ marginTop: "0px" }}>
+                          <div style={{}}>
+                            <BsTelephone
+                              style={{ height: "20px", width: "20px" }}
+                            />
+                          </div>
+                          <div>
+                            <a href="tel:9375599931" style={{ color: "#111" }}>
+                              +91 9375599931
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="line-gray-add"></div>
+
+                      <div
+                        className="cont-add-part"
+                        style={{ marginTop: "20px" }}>
+                        <p
+                          className="cont-add-txt"
+                          style={{ marginTop: "-5px" }}>
+                          Devpara Shak Market,
+                          <br /> Kothariya Main Road,
+                          <br /> Devpara, Rajkot- 360001, <br /> Gujarat (India)
+                        </p>
+
+                        <div
+                          className="contact_det"
+                          style={{ marginTop: "10px" }}>
+                          <div style={{}}>
+                            <BsTelephone
+                              style={{ height: "20px", width: "20px" }}
+                            />
+                          </div>
+                          <div>
+                            <a href="tel:+9998069771" style={{ color: "#111" }}>
+                              +91 9998069771
+                            </a>
+                            {/* <p>80 00 00 70 99</p> */}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="cont-add-part" style={{ marginTop: "35px" }}>
+                    <h1
+                      className="red_heading"
+                      style={{
+                        marginBottom: "0px",
+                        marginTop: "0px",
+                        fontSize: "30px",
+                      }}>
+                      Maruti Trading co.-Rajkot
+                    </h1>
+                    <p className="cont-add-txt" style={{ marginTop: "10px" }}>
+                      Opp. Junagadh Utara,
+                      <br /> Danapith, Rajkot-360001, Gujarat (India)
+                    </p>
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel:7434003500" style={{ color: "#111" }}>
+                          +91 7434003500
+                        </a>
+                        {/* <p>80 00 00 70 99</p> */}
+                      </div>
+                    </div>
+                  </div>
+                  <div className="cont-add-part" style={{ marginTop: "35px" }}>
+                    <h1
+                      className="red_heading"
+                      style={{
+                        marginBottom: "0px",
+                        marginTop: "0px",
+                        fontSize: "30px",
+                      }}>
+                      JALIYAN ENTERPRISE{" "}
+                    </h1>
+                    <p className="cont-add-txt" style={{ marginTop: "10px" }}>
+                      Jaliyan Enterprise,
+                      <br /> Near Patel Pan, S K Chowk, Gandhigram,Rajkot -
+                      360007
+                    </p>
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel:9327202554" style={{ color: "#111" }}>
+                          +91 9327202554
+                        </a>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+              </>
+            ) : null}
 
-{AllImages === 1 ? <>
-  <div className="cont-add-part-main-flex">
-              <div style={{marginTop:"60px"}}>
-               <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Shubham Enterprise-Rajkot
-              </h1>
-              <div className="sub-add-flex">
-                <div className="cont-add-part" style={{marginTop:"20px"}}>
-             
-              <p className="cont-add-txt" style={{marginTop:"0px"}}>
-              Near Star Synergy Hospital, 
+            {AllImages === 2 ? (
+              <>
+                <div className="cont-add-part-main-flex cont-add-part-main-flex2">
+                  <div>
+                    <h1
+                      className="red_heading"
+                      style={{ marginBottom: "0px", marginTop: "0px" }}>
+                      Shree Gajanan Enterprise-Ahmedabad:
+                    </h1>
+                    <p>
+                      406/6, Chokha Bazar,
+                      <br /> Kalupur, Ahmedabad-380001 <br />
+                      Gujarat (India)
+                    </p>
 
-                <br /> Mavdi Main Road, <br/> Rajkot- 360007, <br/> Gujarat (India) 
-              </p>
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel:+9638377021" style={{ color: "#111" }}>
+                          +91 9638377021
+                        </a>
+                        {/* <p>80 00 00 70 99</p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : null}
 
-              <div className="contact_det" style={{marginTop:"0px"}}>
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:9375599931" style={{ color: "#111",}}>
-              +91 9375599931
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
+            {AllImages === 3 ? (
+              <>
+                <div className="cont-add-part-main-flex cont-add-part-main-flex2">
+                  <div>
+                    <h1
+                      className="red_heading"
+                      style={{ marginBottom: "0px", marginTop: "0px" }}>
+                      Ravi Trading- Jamnagar :
+                    </h1>
+                    <p>
+                      Grain Market,
+                      <br /> Jamnagar 361001 Gujarat (India)
+                    </p>
 
-           <div className="line-gray-add"></div>
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel:9375373000" style={{ color: "#111" }}>
+                          +91 9375373000
+                        </a>
+                        {/* <p>80 00 00 70 99</p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : null}
 
-            <div className="cont-add-part" style={{marginTop:"20px"}}>
-              {/* <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-                  Shubham Enterprise-Rajkot              
-                  </h1> */}
-              <p className="cont-add-txt" style={{marginTop:"-5px"}}>
-              Devpara Shak Market, 
+            {AllImages === 4 ? (
+              <>
+                <div className="cont-add-part-main-flex cont-add-part-main-flex2">
+                  <div>
+                    <h1
+                      className="red_heading"
+                      style={{ marginBottom: "0px", marginTop: "0px" }}>
+                      Jalaram Trading-Bhavnagar :
+                    </h1>
+                    <p>
+                      Randhanpuri Bazar,
+                      <br /> Behind Danapith,
+                      <br /> Bhavnagar-364001, Gujarat (India)
+                    </p>
 
-                <br /> Kothariya Main Road,
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel: 9427560656" style={{ color: "#111" }}>
+                          +91 9427560656
+                        </a>
+                        {/* <p>80 00 00 70 99</p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : null}
 
-                <br/> Devpara, Rajkot- 360001, <br/> Gujarat (India) 
-              </p>
+            {AllImages === 5 ? (
+              <>
+                <div className="cont-add-part-main-flex cont-add-part-main-flex2">
+                  <div>
+                    <h1
+                      className="red_heading"
+                      style={{ marginBottom: "0px", marginTop: "0px" }}>
+                      Krishna Traders-Amreli :
+                    </h1>
+                    <p>
+                      Rajkot Bhavnagar Highway,
+                      <br /> Opp. Civil Hospital,
+                      <br /> Babra, Dist: Amreli 365421, <br />
+                      Gujarat (India)
+                    </p>
 
-              <div className="contact_det" style={{marginTop:"10px"}}>
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:+9998069771" style={{ color: "#111",}}>
-              +91 9998069771
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-             
-            </div>
-            </div>
-
-            </div>
-
-            <div className="cont-add-part" style={{marginTop:"35px"}}>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px",fontSize:"30px" }}>
-                Maruti Trading co.-Rajkot
-              </h1>
-              <p className="cont-add-txt" style={{marginTop:"10px"}}>
-              Opp. Junagadh Utara,
-
-                <br /> Danapith, Rajkot-360001, Gujarat (India)
-              </p>
-              <div className="contact_det">
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:7434003500" style={{ color: "#111",}}>
-              +91 7434003500
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
-            </div>
-</> : null}
-
-{AllImages === 2 ? <>
-  <div className="cont-add-part-main-flex cont-add-part-main-flex2">
-  <div>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Shree Gajanan Enterprise-Ahmedabad:
-              </h1>
-              <p>
-              406/6, Chokha Bazar,
-                <br /> Kalupur, Ahmedabad-380001 <br/>
-                Gujarat (India) 
-
-              </p>
-
-              <div className="contact_det">
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:+9638377021" style={{ color: "#111",}}>
-              +91 9638377021
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
-            </div>
-</> : null}
-
-{AllImages === 3 ? <>
-  <div className="cont-add-part-main-flex cont-add-part-main-flex2">
-  <div>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Ravi Trading- Jamnagar :
-              </h1>
-              <p>
-              Grain Market,  
-                <br /> Jamnagar 361001
-                Gujarat (India)
-
-              </p>
-
-              <div className="contact_det">
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:9375373000" style={{ color: "#111",}}>
-              +91 9375373000
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
-            </div>
-</> : null}
-
-{AllImages === 4 ? <>
-  <div className="cont-add-part-main-flex cont-add-part-main-flex2">
-  <div>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-               Jalaram Trading-Bhavnagar :
-              </h1>
-              <p>
-              Randhanpuri Bazar,  
-                <br /> Behind Danapith,
-               <br/>  Bhavnagar-364001, Gujarat (India)
-
-              </p>
-
-              <div className="contact_det">
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel: 9427560656" style={{ color: "#111",}}>
-              +91 9427560656
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
-            </div>
-</> : null}
-
-
-{AllImages === 5 ? <>
-  <div className="cont-add-part-main-flex cont-add-part-main-flex2">
-  <div>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-               Krishna Traders-Amreli :
-              </h1>
-              <p>
-              Rajkot Bhavnagar Highway,   
-                <br /> Opp. Civil Hospital, 
-
-               <br/>  Babra, Dist: Amreli 365421, <br/>
-               Gujarat (India)
-
-              </p>
-
-              <div className="contact_det">
-            <div style={{}}>
-              <BsTelephone style={{ height: "20px", width: "20px" }} />
-            </div>
-            <div>
-              <a href="tel:97268 89007" style={{ color: "#111",}}>
-              +91 97268 89007
-              </a>
-              {/* <p>80 00 00 70 99</p> */}
-            </div>
-          </div>
-            </div>
-            </div>
-</> : null}
-            
+                    <div className="contact_det">
+                      <div style={{}}>
+                        <BsTelephone
+                          style={{ height: "20px", width: "20px" }}
+                        />
+                      </div>
+                      <div>
+                        <a href="tel:97268 89007" style={{ color: "#111" }}>
+                          +91 97268 89007
+                        </a>
+                        {/* <p>80 00 00 70 99</p> */}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </>
+            ) : null}
           </div>
         </div>
       </div>

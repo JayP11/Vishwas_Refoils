@@ -14,7 +14,7 @@ const Navbar = () => {
           <nav className="nav-con">
             <div className="nav-logobox">
               <Link to="/">
-                <img src={images.logo} className="nav-logo" />
+                <img alt="" src={images.logo} className="nav-logo" />
               </Link>
             </div>
 
@@ -77,6 +77,9 @@ const Navbar = () => {
                     Amazon
                   </Link>
                   <Link to="https://deodap.in/search?q=Vishwas">DeoDap</Link>
+                  <Link to="https://www.flipkart.com/search?q=VISHWAS%20COOKING%20OIL&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+                    Flipkart
+                  </Link>
                 </div>
               </div>
               {/* <button

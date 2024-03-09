@@ -70,21 +70,23 @@ const AvailableOn = () => {
         > */}
         <div className="available_main">
           <div className="available_main_img">
-          <Link to="https://udaan.com/org/ORG4YBQXY00EVC2CZR3M0TKHDNN6B?af=food_and_fmcg">
-            <img
-              className="avail-img avail-img2"
-              src={images.udaan_logo}
-              alt=""
-            />
+            <Link to="https://udaan.com/org/ORG4YBQXY00EVC2CZR3M0TKHDNN6B?af=food_and_fmcg">
+              <img
+                className="avail-img avail-img2"
+                src={images.udaan_logo}
+                alt=""
+              />
             </Link>
           </div>
 
           <div className="available_main_img">
-            <img
-              className="avail-img avail-img3"
-              src={images.Flipkart_logo}
-              alt=""
-            />
+            <Link to="https://www.flipkart.com/search?q=VISHWAS%20COOKING%20OIL&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+              <img
+                className="avail-img avail-img3"
+                src={images.Flipkart_logo}
+                alt=""
+              />
+            </Link>
           </div>
           {/* <Link to="https://deodap.in/search?q=Vishwas">DeoDap</Link> */}
           <div className="available_main_img">
