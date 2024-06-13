@@ -39,7 +39,7 @@ const ContactUsCards = () => {
                 <h1
                   className="red_heading"
                   style={{ color: "white", marginBottom: "0px" }}>
-                  Registered Office Address
+                  Rajkot Factory Address
                 </h1>
               </div>
               <div className="contact_address">
@@ -99,6 +99,47 @@ const ContactUsCards = () => {
                 <div>
                   <a href="tel:91577 53915" style={{ color: "#111" }}>
                     +91 91577 53915
+                  </a>
+                  {/* <p>80 00 00 70 99</p> */}
+                </div>
+              </div>
+              <div className="contact_no">
+                <div style={{ display: "flex" }}>
+                  <HiOutlineMail className="react_icon_contact" />
+                </div>
+                <div>
+                  <a
+                    href="mailto:vrclimited.2023@gmail.com"
+                    style={{ color: "#111" }}>
+                    vrclimited.2023@gmail.com
+                  </a>
+                  {/* <p>vshwstc@gmail.com</p> */}
+                </div>
+              </div>
+            </div>
+            <div className="Card_headoffice_details Card_headoffice_details1">
+              <div>
+                <h1
+                  className="red_heading"
+                  style={{ color: "white", marginBottom: "0px" }}>
+                   Ahmedabad Factory Address
+                </h1>
+              </div>
+              <div className="contact_address">
+                <p>
+                  B-30,
+                  <br /> Steel Town Industrial Estate,
+                  <br /> Opp. Writers Factory,
+                  <br /> MORAIYA, <br /> AHMEDABAD - 382213
+                </p>
+              </div>
+              <div className="contact_no">
+                <div style={{ display: "flex", marginRight: "10px" }}>
+                  <BsTelephone className="react_icon_contact" />
+                </div>
+                <div>
+                  <a href="tel:9638377021" style={{ color: "#111" }}>
+                    +91 96383 77021
                   </a>
                   {/* <p>80 00 00 70 99</p> */}
                 </div>
@@ -279,34 +320,6 @@ const ContactUsCards = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="cont-add-part" style={{ marginTop: "35px" }}>
-                    <h1
-                      className="red_heading"
-                      style={{
-                        marginBottom: "0px",
-                        marginTop: "0px",
-                        fontSize: "30px",
-                      }}>
-                      Jaliyan Enterprise
-                    </h1>
-                    <p className="cont-add-txt" style={{ marginTop: "10px" }}>
-                      Jaliyan Enterprise,
-                      <br /> Near Patel Pan, S K Chowk, Gandhigram,Rajkot -
-                      360007
-                    </p>
-                    <div className="contact_det">
-                      <div style={{}}>
-                        <BsTelephone
-                          style={{ height: "20px", width: "20px" }}
-                        />
-                      </div>
-                      <div>
-                        <a href="tel:9327202554" style={{ color: "#111" }}>
-                          +91 9327202554
-                        </a>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </>
             ) : null}
@@ -318,12 +331,12 @@ const ContactUsCards = () => {
                     <h1
                       className="red_heading"
                       style={{ marginBottom: "0px", marginTop: "0px" }}>
-                      Shree Gajanan Enterprise-Ahmedabad:
+                      Vishwas Refoils & Consumer Limited Ahmedabad:
                     </h1>
                     <p>
-                      406/6, Chokha Bazar,
-                      <br /> Kalupur, Ahmedabad-380001 <br />
-                      Gujarat (India)
+                      B-30, Steel Town Industrial Estate,
+                      <br /> Opp. Writers Factory, Moraiya, <br />
+                      Ahmedabad - 382213
                     </p>
 
                     <div className="contact_det">
@@ -334,7 +347,7 @@ const ContactUsCards = () => {
                       </div>
                       <div>
                         <a href="tel:+9638377021" style={{ color: "#111" }}>
-                          +91 9638377021
+                          +91 96383 77021
                         </a>
                         {/* <p>80 00 00 70 99</p> */}
                       </div>

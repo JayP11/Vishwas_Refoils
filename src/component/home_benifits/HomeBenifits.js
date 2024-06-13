@@ -66,7 +66,7 @@ const HomeBenifits = () => {
 
                     <div className="box_item">
                       <div>
-                        <img src={images.Cholesterol} />
+                        <img alt="" src={images.Cholesterol} />
                       </div>
                       <div>
                         <h4 style={{ marginTop: "10px" }}>
@@ -83,7 +83,7 @@ const HomeBenifits = () => {
                   <div className="benifits_box">
                     <div className="box_item">
                       <div>
-                        <img src={images.dumbbell} />
+                        <img alt="" src={images.dumbbell} />
                       </div>
                       <div>
                         <h4 style={{ marginTop: "11px" }}>
@@ -93,7 +93,7 @@ const HomeBenifits = () => {
                     </div>
                     <div className="box_item">
                       <div>
-                        <img src={images.food} />
+                        <img alt="" src={images.food} />
                       </div>
                       <div>
                         <h4 style={{ marginTop: "10px" }}>

@@ -9,7 +9,7 @@ const Recfafdajalebi = () => {
     <div className="Recipeonedetail-sec">
       <div className="Recipeonedetail-con">
         <div className="Recipeonedetail-imgbox Recipeonedetail_imgbox_fafdajalebi">
-          <img src={images.rec_fafdajalebi} className="Recipeonedetail-img" />
+          <img alt="" src={images.rec_fafdajalebi} className="Recipeonedetail-img" />
           <div className="Recipeonedetail-imgbox-inner">
             <div className="Recipeonedetail-inner-flex">
               <div className="Recipeonedetail-heading">

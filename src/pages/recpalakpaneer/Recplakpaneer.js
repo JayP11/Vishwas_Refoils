@@ -10,7 +10,7 @@ const Recplakpaneer = () => {
       <div className="Recipeonedetail-sec">
         <div className="Recipeonedetail-con">
           <div className="Recipeonedetail-imgbox">
-            <img
+            <img alt=""
               src={images.rec_palak_paneer}
               className="Recipeonedetail-img"
             />

@@ -14,7 +14,7 @@ const ContactUsmain = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     autoplaySpeed: 2000,
   };
   return (
@@ -25,9 +25,7 @@ const ContactUsmain = () => {
         backgroundPosition: "initial",
         backdropFilter: "blur(2px)",
         backgroundSize: "initial",
-
         width: "100vw",
-        // height: "34rem",
         display: "flex",
         alignItems: "center",
         paddingBottom: "3rem",
@@ -94,38 +92,21 @@ const ContactUsmain = () => {
                 </a>
               </p>
             </div>
-            <div>
-              <h1
-                className="red_heading"
-                style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Jaliyan Enterprise,
-              </h1>
-              <p>
-                Near Patel Pan, S K Chowk,
-                <br /> Gandhigram,Rajkot - 360007
-              </p>
-              <p>
-                {/* Jatinbhai: &nbsp; */}
-                <a href="tel:9327202554" style={{ color: "#111" }}>
-                  +91 9327202554
-                </a>
-              </p>
-            </div>
 
             <div>
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Shree Gajanan Enterprise-Ahmedabad :
+                Vishwas Refoils & Consumer Limited Ahmedabad:
               </h1>
               <p>
-                406/6, Chokha Bazar, Kalupur, <br /> Ahmedabad-380001 Gujarat
-                (India)
+                B-30, Steel Town Industrial Estate,
+                <br /> Opp. Writers Factory, Moraiya, <br />
+                Ahmedabad - 382213
               </p>
               <p>
-                {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9638377021" style={{ color: "#111" }}>
-                  +91 9638377021
+                  +91 96383 77021
                 </a>
               </p>
             </div>

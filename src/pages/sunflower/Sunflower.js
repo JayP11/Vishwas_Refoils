@@ -1,6 +1,5 @@
 import React from "react";
-import HeroSunflower from "../../component/hero_sunflower/HeroSunflower";
-import SunflowerSinglepro from "../../component/sunflower_singlepro/SunflowerSinglepro";
+ import SunflowerSinglepro from "../../component/sunflower_singlepro/SunflowerSinglepro";
 
 const Sunflower = () => {
   return (
