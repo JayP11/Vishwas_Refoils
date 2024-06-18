@@ -1,7 +1,8 @@
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
 import images from "../../constants/images";
- import "./Testimonial.css";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import "./Testimonial.css";
 import Slider from "react-slick";
 
 const Testimonial = () => {
@@ -40,7 +41,7 @@ const Testimonial = () => {
           <div className="test_card1">
             <div className="img_ficon">
               <div className="per_img_main">
-                <img alt="" src={images.person1} className="per_img" />
+                <img src={images.person1} className="per_img" />
               </div>
               <div style={{ width: "4rem" }}>
                 <FaQuoteRight style={{ width: "3rem", height: "3rem" }} />
@@ -60,7 +61,7 @@ const Testimonial = () => {
           <div className="test_card1">
             <div className="img_ficon">
               <div className="per_img_main">
-                <img alt="" src={images.person2} className="per_img" />
+                <img src={images.person2} className="per_img" />
               </div>
               <div style={{ width: "4rem" }}>
                 <FaQuoteRight style={{ width: "3rem", height: "3rem" }} />
@@ -80,7 +81,7 @@ const Testimonial = () => {
           <div className="test_card1">
             <div className="img_ficon">
               <div className="per_img_main">
-                <img alt="" src={images.person3} className="per_img" />
+                <img src={images.person3} className="per_img" />
               </div>
               <div style={{ width: "4rem" }}>
                 <FaQuoteRight style={{ width: "3rem", height: "3rem" }} />
@@ -102,7 +103,7 @@ const Testimonial = () => {
             <div className="img_ficon">
               <div className="per_img_main">
                 {/* <img src="https://i.ibb.co/BtD6Qgx/Clients-Says1.png" /> */}
-                <img alt="" src={images.person2} className="per_img" />
+                <img src={images.person2} className="per_img" />
               </div>
               <div style={{ width: "4rem" }}>
                 <FaQuoteRight style={{ width: "3rem", height: "3rem" }} />

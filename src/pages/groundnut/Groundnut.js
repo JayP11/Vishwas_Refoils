@@ -1,5 +1,6 @@
 import React from 'react'
- import GroundnutSinglepro from '../../component/groundnut_singlepro/GroundnutSinglepro';
+import HeroGroundnut from '../../component/hero_groundnut/HeroGroundnut';
+import GroundnutSinglepro from '../../component/groundnut_singlepro/GroundnutSinglepro';
 
 const Groundnut = () => {
   return (

@@ -2,6 +2,7 @@ import React from "react";
 import HeroCareer from "../../component/hero_career/HeroCareer";
 import Perks from "../../component/perks/Perks";
 import images from "../../constants/images";
+import FormCareer from "../../component/form_career/FormCareer";
 import CareerForm from "../../component/careerform/CareerForm";
 
 const Career = () => {
@@ -25,7 +26,7 @@ const Career = () => {
         <HeroCareer />
         <Perks />
         {/* <FormCareer /> */}
-        <CareerForm />
+        <CareerForm/>
       </div>
     </div>
   );

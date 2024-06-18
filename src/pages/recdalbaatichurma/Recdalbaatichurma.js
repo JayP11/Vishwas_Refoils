@@ -10,7 +10,7 @@ const Recdalbaatichurma = () => {
     <div className="Recipeonedetail-sec">
       <div className="Recipeonedetail-con">
         <div className="Recipeonedetail-imgbox">
-          <img alt=""
+          <img
             src={images.rec_dal_baati_churma}
             className="Recipeonedetail-img"
           />

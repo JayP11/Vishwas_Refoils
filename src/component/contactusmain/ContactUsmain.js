@@ -26,6 +26,7 @@ const ContactUsmain = () => {
         backdropFilter: "blur(2px)",
         backgroundSize: "initial",
         width: "100vw",
+        // height: "34rem",
         display: "flex",
         alignItems: "center",
         paddingBottom: "3rem",
@@ -48,9 +49,7 @@ const ContactUsmain = () => {
                 <br /> Mavdi Main Road, Rajkot- 360007, <br />
                 Gujarat (India)
               </p>
-
               <p>
-                {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9375599931" style={{ color: "#111" }}>
                   +91 9375599931
                 </a>
@@ -97,14 +96,15 @@ const ContactUsmain = () => {
               <h1
                 className="red_heading"
                 style={{ marginBottom: "0px", marginTop: "0px" }}>
-                Vishwas Refoils & Consumer Limited Ahmedabad:
+                Vishwas Refoils & Consumer Limited Ahmedabad
               </h1>
               <p>
                 B-30, Steel Town Industrial Estate,
-                <br /> Opp. Writers Factory, Moraiya, <br />
-                Ahmedabad - 382213
+                <br /> Opp. Writers Factory, MORAIYA,
+                <br /> AHMEDABAD - 382213
               </p>
               <p>
+                {/* Jatinbhai: &nbsp; */}
                 <a href="tel:9638377021" style={{ color: "#111" }}>
                   +91 96383 77021
                 </a>

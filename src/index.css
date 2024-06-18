@@ -12,6 +12,12 @@ font-family: 'Playfair Display';
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.slick-initialized .slick-slide {
+  display: flex !important;
+  justify-content: center !important;
+}
+
 .red_button {
   color: white;
   background-color: red;

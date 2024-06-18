@@ -88,6 +88,7 @@ import cotton_hero from "../asset/cotton_hero.png";
 import groundnut_hero from "../asset/groundnut_hero.png";
 import groundnut_hero_change from "../asset/groundnut_hero_change.png";
 import palmolean_hero from "../asset/palmolean_hero.png";
+import palmolean_hero_change from "../asset/palmolean_hero_change.png";
 import soya_hero from "../asset/soya_hero.png";
 import sunflower_hero from "../asset/sunflower_hero.png";
 
@@ -139,6 +140,7 @@ import footer_black_bg from "../asset/footer_black_bg.jpeg";
 
 export default {
   logo,
+  // hero_img,
   sunflower_can,
   groundnut_can,
   cotton_can,

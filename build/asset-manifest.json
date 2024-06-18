@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.95372942.css",
-    "main.js": "/static/js/main.ff3b2314.js",
+    "main.css": "/static/css/main.06553b3d.css",
+    "main.js": "/static/js/main.0ddc4cba.js",
     "static/media/Refined_PalmoleinOil_set.png": "/static/media/Refined_PalmoleinOil_set.dcb3b2f62ad1b0912546.png",
     "static/media/Refined_Sunflower_Oil_set.png": "/static/media/Refined_Sunflower_Oil_set.30ff278fbfd665e2a9ee.png",
     "static/media/Refined_Cottonseed_Oil_set.png": "/static/media/Refined_Cottonseed_Oil_set.a39e832bffc18d526129.png",
@@ -53,6 +53,7 @@
     "static/media/cotton_can.png": "/static/media/cotton_can.c6227446342e09dea77b.png",
     "static/media/soyabean_can.png": "/static/media/soyabean_can.7411b3d7494d70025290.png",
     "static/media/bg_product.jpeg": "/static/media/bg_product.8b4957d97b2a6386d0c1.jpeg",
+    "static/media/palmolean_hero_change.png": "/static/media/palmolean_hero_change.94e89af7ad0bf737c703.png",
     "static/media/res_3.jpeg": "/static/media/res_3.49eb0ae4d7e5a3ea2eb7.jpeg",
     "static/media/res_2.jpeg": "/static/media/res_2.c66100bd65163b67dc84.jpeg",
     "static/media/castor_Singlepro.png": "/static/media/castor_Singlepro.dbc61e240e207a76da45.png",
@@ -88,11 +89,11 @@
     "static/media/linkdin.png": "/static/media/linkdin.a2c054691291d49eab96.png",
     "static/media/carrer_cartoon_img.webp": "/static/media/carrer_cartoon_img.ac6559c0470d79600667.webp",
     "index.html": "/index.html",
-    "main.95372942.css.map": "/static/css/main.95372942.css.map",
-    "main.ff3b2314.js.map": "/static/js/main.ff3b2314.js.map"
+    "main.06553b3d.css.map": "/static/css/main.06553b3d.css.map",
+    "main.0ddc4cba.js.map": "/static/js/main.0ddc4cba.js.map"
   },
   "entrypoints": [
-    "static/css/main.95372942.css",
-    "static/js/main.ff3b2314.js"
+    "static/css/main.06553b3d.css",
+    "static/js/main.0ddc4cba.js"
   ]
 }

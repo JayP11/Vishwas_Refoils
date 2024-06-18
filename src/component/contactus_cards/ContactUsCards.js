@@ -33,13 +33,13 @@ const ContactUsCards = () => {
       }}>
       <div className="ContactUsCards_main">
         <div className="Cards_main">
-          <div className="Card_headoffice">
+          <div className="Card_headoffice" style={{ flexWrap: "wrap" }}>
             <div className="Card_headoffice_details Card_headoffice_details2">
               <div>
                 <h1
                   className="red_heading"
                   style={{ color: "white", marginBottom: "0px" }}>
-                  Rajkot Factory Address
+                  RAjkot Factory Address
                 </h1>
               </div>
               <div className="contact_address">
@@ -122,7 +122,7 @@ const ContactUsCards = () => {
                 <h1
                   className="red_heading"
                   style={{ color: "white", marginBottom: "0px" }}>
-                   Ahmedabad Factory Address
+                  Ahmedabad Factory Address
                 </h1>
               </div>
               <div className="contact_address">
@@ -130,7 +130,8 @@ const ContactUsCards = () => {
                   B-30,
                   <br /> Steel Town Industrial Estate,
                   <br /> Opp. Writers Factory,
-                  <br /> MORAIYA, <br /> AHMEDABAD - 382213
+                  <br /> MORAIYA,
+                  <br /> AHMEDABAD - 382213
                 </p>
               </div>
               <div className="contact_no">
@@ -138,7 +139,7 @@ const ContactUsCards = () => {
                   <BsTelephone className="react_icon_contact" />
                 </div>
                 <div>
-                  <a href="tel:9638377021" style={{ color: "#111" }}>
+                  <a href="tel:96383770215" style={{ color: "#111" }}>
                     +91 96383 77021
                   </a>
                   {/* <p>80 00 00 70 99</p> */}
@@ -331,12 +332,11 @@ const ContactUsCards = () => {
                     <h1
                       className="red_heading"
                       style={{ marginBottom: "0px", marginTop: "0px" }}>
-                      Vishwas Refoils & Consumer Limited Ahmedabad:
+                      Vishwas Refoils & Consumer Limited Ahmedabad
                     </h1>
                     <p>
-                      B-30, Steel Town Industrial Estate,
-                      <br /> Opp. Writers Factory, Moraiya, <br />
-                      Ahmedabad - 382213
+                      B-30, Steel Town Industrial Estate, Opp. Writers Factory,
+                      MORAIYA, AHMEDABAD - 382213
                     </p>
 
                     <div className="contact_det">
@@ -346,7 +346,9 @@ const ContactUsCards = () => {
                         />
                       </div>
                       <div>
-                        <a href="tel:+9638377021" style={{ color: "#111" }}>
+                        <a
+                          href="tel:9638377021"
+                          style={{ color: "#111" }}>
                           +91 96383 77021
                         </a>
                         {/* <p>80 00 00 70 99</p> */}

@@ -140,11 +140,11 @@ function OurProducts() {
     arrows: false,
     centerMode: true,
     // centerPadding: "200px",
-    slidesToShow: 3,
+    slidesToShow: 4,
     focusOnSelect: true,
     dots: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     afterChange: (slideIndex) => {
       setCurrentSlide(slideIndex);
@@ -158,7 +158,6 @@ function OurProducts() {
           slidesToShow: 3,
         },
       },
-
       {
         breakpoint: 950,
         settings: {
@@ -175,7 +174,6 @@ function OurProducts() {
           slidesToShow: 3,
         },
       },
-
       {
         breakpoint: 575,
         settings: {
@@ -197,14 +195,13 @@ function OurProducts() {
 
   const slideStyle = (index) => {
     if (index === currentSlide) {
-      return { transform: "scale(0.8)" }; // Apply zoom effect to the center slide
+      return { transform: "scale(0.8)" }; 
     }
     return {};
   };
 
   return (
     <div
-      className=""
       style={{
         // backgroundImage: `url(${images.section_bg1})`,
         backgroundImage: `url(${images.bg_image})`,
@@ -248,7 +245,6 @@ function OurProducts() {
             <div className="center img_div" style={slideStyle(5)}>
               <img src={images.soyabean_can} className="product-img" alt="" />
             </div>
-
             {/* Add more slides as needed */}
           </Slider>
         </div>
