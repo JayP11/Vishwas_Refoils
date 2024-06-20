@@ -144,7 +144,7 @@ function OurProducts() {
     focusOnSelect: true,
     dots: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     afterChange: (slideIndex) => {
       setCurrentSlide(slideIndex);
@@ -195,7 +195,7 @@ function OurProducts() {
 
   const slideStyle = (index) => {
     if (index === currentSlide) {
-      return { transform: "scale(0.8)" }; 
+      return { transform: "scale(0.8)" };
     }
     return {};
   };
