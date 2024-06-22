@@ -3,8 +3,7 @@ import "./ContactUsCards.css";
 import images from "../../constants/images";
 import { BsTelephone } from "react-icons/bs";
 import { HiOutlineMail } from "react-icons/hi";
-import Slider from "react-slick";
-
+ 
 const ContactUsCards = () => {
   var settings = {
     // dots: true,

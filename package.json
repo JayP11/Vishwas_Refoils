@@ -11,6 +11,7 @@
     "react-animate-on-scroll": "^2.1.7",
     "react-animation-on-scroll": "^5.1.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.15.0",
     "react-scripts": "5.0.1",

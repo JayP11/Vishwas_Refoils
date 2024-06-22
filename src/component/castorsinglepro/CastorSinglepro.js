@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import images from "../../constants/images";
 import "./CastorSinglepro.css";
 
 const CastorSinglepro = () => {
+   useEffect(() => {
+     window.scrollTo(0, 0);
+   }, []);
   return (
     <div
       className="pro_sunflower castorsinglepro_res"
