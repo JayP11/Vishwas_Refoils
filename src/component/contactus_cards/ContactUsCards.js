@@ -39,7 +39,7 @@ const ContactUsCards = () => {
                 <h1
                   className="red_heading"
                   style={{ color: "white", marginBottom: "0px" }}>
-                  RAjkot Factory Address
+                  Rajkot Factory Address
                 </h1>
               </div>
               <div className="contact_address">
